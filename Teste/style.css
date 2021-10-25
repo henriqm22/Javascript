@@ -1,0 +1,31 @@
+#texto {
+	width: 300px;
+	height: 550px;
+	overflow: auto;
+	background-color: #ccc;
+	padding: 20px;
+	border: 2px solid #FF00FF;
+}
+
+
+.scrollbutton {
+	width: 75px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: #CCC;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 999;
+	cursor: pointer;
+}
+
+.laranja{
+	background-color: orange;
+	color: #FFF;
+}
+
+.azul{
+	background-color: #1E90FF;
+	color: #000;
+}

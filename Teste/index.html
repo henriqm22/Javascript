@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="homepage">
+	<title> Página Teste </title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<h1 id="frase"> Youkoso! </h1>
+	<form action="/pagina-processa-dados-do-form" method="post">
+    	<div>
+        	<label for="nome">Nome:</label>
+        	<input type="text" id="nome" value="Escreva seu nome" / >
+   	    </div> 
+   		<div>
+       		 <label for="email">E-mail:</label>
+        	 <input type="email" id="email" />
+    	</div>
+    <div>
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg"></textarea>
+    </div>
+</form>
+
+	<div onclick="subirTela()" class="scrollbutton"> </div>
+		<br/><br/>	
+
+		<h3 id="texto">	A Programação é fundamental para podermos aprender a como funcionam os sites, tecnologias de ponta entre diversas outras coisas. Esse texto serve de exemplo para o aprendizado de JavaScript.
+			</h3>
+		<br/> <br/>
+
+		<button onclick="laranja()">Cor Laranja</button>
+		<button onclick="azul()">Cor Azul</button>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
