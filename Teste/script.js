@@ -43,3 +43,7 @@ function limparbotao(){
      document.getElementById("frase").classList.remove('laranja');
 
 }
+
+// Criando Arrays
+
+let Computador = ['placa-mae','processador','memoria-ram','placa-de-video','fonte','ssd'];
